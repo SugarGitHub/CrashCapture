@@ -58,7 +58,7 @@ void captureException(NSException *exception){
     [exceptionInfo writeToFile:ERRORPATH atomically:YES encoding:NSUTF8StringEncoding error:nil];
     NSLog(@"崩溃日志路径:%@",ERRORPATH);
     
-    //然后上传到服务器.............
+    //然后上传到服务器.............此处省略一万字
 }
 
 @end
